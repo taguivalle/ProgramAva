@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Programación Avanzada</title>
+  <!-- Con este link se inserta el icono en el título de la pagina "Front End responsive" 
+    https://imagen.online-convert.com/es/convertir/png-a-ico. -->
+  <link rel="shortcut icon" href="icons/codigo.ico" type="image/x-icon">
+  <link rel="preload" href="css/normalize.css" as="style" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900" rel="stylesheet">
+  <link rel="preload" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<h1 class="title">Ingreso a la clase de Programación <span>Avanzada</span></h1>
+<div class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+<div class="open">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+</div>
+<div class="nav-bg">
+  <nav class="navegacion-principal contenedor">
+    <a href="html/inicio.html" target="_blank" rel="noopener noreferrer">Inicio</a>
+    <a href="html/nosotros.html" target="_blank" rel="noopener noreferrer">Estudiantes</a>
+    <a href="html/clientes.html" target="_blank" rel="noopener noreferrer">Profesores</a>
+    <a href="html/contactos.html" target="_blank" rel="noopener noreferrer">Administrativos</a>
+    <a href="html/carrito.html" target="_blank" rel="noopener noreferrer">Computadores</a>
+  </nav>
+</div>
+<!-- Reglas para utilizar la etiqueta section: sí el primer elemento hijo de esta etiqueta que utilizamos para 
+        agrupar es un header, tenemos que utilizar una etiqueta section casi, casi de fuerza. Ahora, hay una 
+    excepción es sí ese es el contenido principal, utilizarías una etiqueta main. -->
+<section class="hero">
+  <div class="contenido-hero">
+    <h2>Diseño y Desarrollo Web <span>Avanzada</span></h2>
+    <!-- SVG: Scalable Vector Graphic-->
+    <!-- Este es el icono para el map, desde tabler icon. -->
+    <div class="ubicacion">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-google-maps" width="88"
+        height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffc107" fill="none" stroke-linecap="round"
+        stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <path d="M12 9.5m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" />
+        <path d="M6.428 12.494l7.314 -9.252" />
+        <path d="M10.002 7.935l-2.937 -2.545" />
+        <path d="M17.693 6.593l-8.336 9.979" />
+        <path
+          d="M17.591 6.376c.472 .907 .715 1.914 .709 2.935a7.263 7.263 0 0 1 -.72 3.18a19.085 19.085 0 0 1 -2.089 3c-.784 .933 -1.49 1.93 -2.11 2.98c-.314 .62 -.568 1.27 -.757 1.938c-.121 .36 -.277 .591 -.622 .591c-.315 0 -.463 -.136 -.626 -.593a10.595 10.595 0 0 0 -.779 -1.978a18.18 18.18 0 0 0 -1.423 -2.091c-.877 -1.184 -2.179 -2.535 -2.853 -4.071a7.077 7.077 0 0 1 -.621 -2.967a6.226 6.226 0 0 1 1.476 -4.055a6.25 6.25 0 0 1 4.811 -2.245a6.462 6.462 0 0 1 1.918 .284a6.255 6.255 0 0 1 3.686 3.092z" />
+      </svg>
+      <p>Ibagué, Tólima, Colombia.</p>
+    </div> <!-- Aquí terminal el SVG. -->
+  </div><!-- Aquí termina el contenido del div contenido-hero. -->
+  <a class="boton" href="#" target="_blank" rel="noopener noreferrer">Contactar</a>
+</section>
+
+<body class="a">
+  <h2 style="text-align: center">HTML Tutorial</h2>
+  <h3 style="text-align: center">HTML introducción</h3>
+  <h4 style="text-align: left"> HTML is the standard markup language for creating Web pages.</h4><br />
+  <h5 style="text-align: left">What is HTML? C:\xampp\htdocs\PrograAva\img\ronald.jpeg</h5>
+
+  <p style="text-align: justify">
+    Buenos días a mis estimados estudiantes de la clase de programación
+    avanzada (30443)
+
+  </p>
+  <ul>
+    <li>HTML stands for Hyper Text Markup Language</li>
+    <li>HTML is the standard markup language for creating Web pages</li>
+    <li>HTML describes the structure of a Web page</li>
+    <li>HTML consists of a series of elements</li>
+    <li>HTML elements tell the browser how to display the content</li>
+    <li>
+      HTML elements label pieces of content such as "this is a heading", "this
+      is a paragraph", "this is a link", etc.
+    </li>
+  </ul>
+  <h2>A simple HTML document</h2>
+  <h3>Example of a code that has been embedded within the html page with an image</h3>
+  <img src="img/example.png" alt="example">
+  <p>
+    en HTML podemos iniciar escribiendo las letra ht y con esta función
+    aparece el autocompletado que nos proporciona el el mismo HTML.
+  <pre>Example of a code that has been embedded within the html page with redundancy worth it with a code<code><br>
+      &lt;!DOCTYPE html&gt;
+          &lt;html&gt;
+          &lt;head&gt;
+          &lt;title&gt;Page Title&lt;/title&gt;
+          &lt/head&gt;
+          &lt/body&gt;
+          
+          &lth1&gt;My First Heading&lt;/h1&gt;
+          &lt;p&gt;My first paragraph.&lt;/p&gt;
+          
+          &lt;/body&gt;
+          &lt;/html&gt;
+    </code></pre>
+  </p>
+  <p>
+  <ul>
+    <li>The &lt;!DOCTYPE html&gt; declaration defines that this document is an HTML5 document.</li>
+    <li>The &lt;html&gt;element is the root element of an HTML page.</li>
+    <li>The &lt;head&gt; element contains meta information about the HTML page.</li>
+    <li>The &lt;title&gt; element specifies a title for the HTML page (which is shown in the browser's title bar or in
+      the
+      page's tab).</li>
+    <li>The &lt;h1&gt; element defines a large heading.</li>
+    <li>The &lt;p&gt; element defines a paragraph.</li>
+  </ul>
+  </p>
+  <p>
+  <h3>What is an HTML element</h3>
+  <p>An HTML element is defined by a start tag, some content, and an end tag:</p>
+  &lt;tagname&gt; Content goes here... &lt;/tagname&gt;
+  <p>The HTML element is everything from the start tag to the end tag:</p>
+  &lt;h1&gt;My First Heading&lt/h1&gt;<br>
+  &lt;p&gt;My first paragraph.&lt;/p&gt;
+  </p>
+  </head>
+
+  <body>
+    <table>
+      <tr>
+        <th><b>Start tag</b></th>
+        <th><b>Element content</b></th>
+        <th><b>End tag</b></th>
+      </tr>
+      <tr>
+        <td>&lt;h1&gt;</td>
+        <td>My First Heading</td>
+        <td>&lt;h1&gt;</td>
+      </tr>
+      <tr>
+        <td>&lt;p&gt;</td>
+        <td>My First paragraph.</td>
+        <td>&lt;p&gt;</td>
+      </tr>
+      <tr>
+        <td>&lt;br&gt;</td>
+        <td>none</td>
+        <td>none</td>
+      </tr>
+    </table>
+    <p style="text-align: justify;">Note: Some HTML elements have no content (like the &lt;br&gt; element). These
+      elements are called empty elements.
+      Empty elements do not have an end tag!</p>
+    <h1>Web Browsers</h1>
+    <p>The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them
+      correctly.<br>
+      A browser does not display the HTML tags, but uses them to determine how to display the document:</p><br>
+    <img src="img/firstHead.png" alt=""><br>
+    <h2>HTML Page structure</h2>
+    <p>Below is a visualization of an HTML page structure:</p>
+    <img src="img/pageStructure.png" alt=""><br>
+    <p style="color: rgb(212, 184, 22);"><b>Note:</b> The content inside the &lt;body&gt; section will be
+      displayed in a browser. The content inside the &lt;title&gt; element will be shown in the browser's title
+      bar or in the page's tab.</p>
+    <h2>HTML History</h2>
+    <p>Since the early days of the World Wide Web, there have been many versions of HTML:</p>
+
+    </head>
+
+    <body>
+      <table>
+        <tr>
+          <th><b>Year</b></th>
+          <th><b>Version</b></th>
+        </tr>
+        <tr>
+          <td>1989</td>
+          <td>Tim Berners-Lee invented www</td>
+        </tr>
+        <tr>
+          <td>1991</td>
+          <td>Tim Berners-Lee invented HTML</td>
+        </tr>
+        <tr>
+          <td>1993</td>
+          <td>Dave Raggett drafted HTML+</td>
+        </tr>
+        <tr>
+          <td>1995</td>
+          <td>HTML Working Group defined HTML 2.0</td>
+        </tr>
+        <tr>
+          <td>1997</td>
+          <td>W3C Recommendation: HTML 3.2</td>
+        </tr>
+        <tr>
+          <td>1999</td>
+          <td>W3C Recommendation: HTML 4.01</td>
+        </tr>
+        <tr>
+          <td>2000</td>
+          <td>WHATWG HTML5 First Public Draft</td>
+        </tr>
+        <tr>
+          <td>2008</td>
+          <td>WHATWG HTML5 First Public Draft</td>
+        </tr>
+        <tr>
+          <td>2012</td>
+          <td><a href="https://html.spec.whatwg.org/multipage/" target="_blank" rel="noopener noreferrer">
+              WHATWG HTML5 Living Standard</a></td>
+        </tr>
+        <tr>
+          <td>2014</td>
+          <td><a href="https://html.spec.whatwg.org/multipage/" target="_blank" rel="noopener noreferrer">W3C
+              Recommendation: HTML5</a></td>
+        </tr>
+        <tr>
+          <td>2016</td>
+          <td>W3C Candidate Recommendation: HTML 5.1</td>
+        </tr>
+        <tr>
+          <td>2017</td>
+          <td><a href="https://html.spec.whatwg.org/multipage/" target="_blank" rel="noopener noreferrer">W3C
+              Recommendation: HTML5.1 2nd Edition</a></td>
+        </tr>
+        <tr>
+          <td>2017</td>
+          <td><a href="https://html.spec.whatwg.org/multipage/" target="_blank" rel="noopener noreferrer">W3C
+              Recommendation: HTML5.2</a></td>
+        </tr><br>
+      </table>
+      <p><a href="https://www.w3schools.com/html/html_intro.asp" target="_blank" rel="noopener noreferrer">This
+          tutorial follows the latest HTML5 standard.</a></p>
+    </body>
+
+    <p>fabian estudia ing de sistemas</p>
+    <img src="img/example.png" alt="">
+
+    <h2>Este es el Segundo Título </h2>
+    <h2>Este es el Tercer Título</h2>
+    <h3>Este es el Cuarto Título</h3>
+    <h4>Este es el Quinto Título</h4>
+    <h5>Este es el Sexto Título</h5>
+    <h6>Este es el Séptimo Título</h6>
+    <h2>Enlaces HTML</h2>
+
+    <p>Los enlaces HTML se definen con la etiqueta a: </p>
+    <a href="https://www.w3schools.com/">Este es un enlace </a>
+
+    <p>Este es un párrafo <br> con un salto de línea</P>
+
+    <h2> El atributo de estilo</h2>
+    <p>El atributo de estilo se utiliza para agregar estilos a un elemento, como color: </p>
+    <p estilo="color: rojo;"> Este es un párrafo rojo. </p>
+
+    <estilo> tabla, th, td { borde: 1px negro sólido;}</estilo>
+    <h2> Una tabla HTML básica</h2>
+    <p>Para entender mejor el ejemplo, hemos agregado una tabla.</p>
+    <table>
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+      <tr>
+        <td>Ernst Handel</td>
+        <td>Roland Mendel</td>
+        <td>Austria</td>
+      </tr>
+      <tr>
+        <td>Island Trading</td>
+        <td>Helen Bennett</td>
+        <td>UK</td>
+      </tr>
+      <tr>
+        <td>Laughing Bacchus Winecellars</td>
+        <td>Yoshi Tannamuri</td>
+        <td>Canada</td>
+      </tr>
+      <tr>
+        <td>Magazzini Alimentari Riuniti</td>
+        <td>Giovanni Rovelli</td>
+        <td>Italy</td>
+      </tr>
+    </table>
+    <section>
+      <h2>Contacto</h2>
+      <form class="formulario">
+        <fieldset> <!-- Con este fieldset se inicia el formulario -->
+          <legend>Contactanos llenando todos los campos</legend>
+          <div class="contenedor-campos"> <!-- Aquí tenia el error de alinear los inputs class="campo"; repetida-->
+            <!-- Desde este bloque div principal le daremos los estilos a todos los divs-->
+            <div class="campo">
+              <label for="">Nombre</label>
+              <input class="input-text" type="text" name="" id="" placeholder="Nombres completos" />
+            </div>
+            <div class="campo">
+              <label for="">Teléfono</label>
+              <input class="input-text" type="tel" name="" id="" placeholder="Número telefónico" />
+            </div>
+            <div class="campo">
+              <label for="">Email</label>
+              <input class="input-text" type="email" name="" id="" placeholder="Correo electrónico" />
+            </div>
+            <div class="campo">
+              <label for="">Mensaje</label>
+              <textarea class="input-text"></textarea>
+            </div>
+            <br />
+          </div><!-- Aquí finaliza el contenedor de los campos. -->
+          <div class="alinear-derecha flex">
+            <input class="boton w-sm-100" type="submit" value="Enviar" />
+          </div>
+        </fieldset>
+      </form>
+    </section>
+  </body>
+  </cuerpo>
+
+
+
+
+
+</html
