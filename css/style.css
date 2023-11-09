@@ -49,6 +49,8 @@ body {
     font-family: 'Krub', sans-serif;
     /* Con esta línea hacemos un degradado de abajo hacia arriba de forma automática.*/
     background-image: linear-gradient(to top, var(--grisclaro) 0%, var(--blanco) 100%);
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
 }
 
 /* Aquí nos encontramos con los estilos del título principal. */
@@ -94,7 +96,7 @@ body {
     margin-left: 50px;
 }
 
-.open {
+#main {
     transition: margin-left .5s;
     padding: 16px;
 }
