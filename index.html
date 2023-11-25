@@ -19,23 +19,24 @@
 
 </head>
 <h1 class="title">Ingreso a la clase de Programación <span>Avanzada</span></h1>
-<div class="sidenav">
+<div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="#">About</a>
   <a href="#">Services</a>
   <a href="#">Clients</a>
   <a href="#">Contact</a>
 </div>
-<div class="open">
+
+<div id="main">
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 </div>
 <div class="nav-bg">
   <nav class="navegacion-principal contenedor">
-    <a href="html/inicio.html" target="_blank" rel="noopener noreferrer">Inicio</a>
-    <a href="html/nosotros.html" target="_blank" rel="noopener noreferrer">Estudiantes</a>
-    <a href="html/clientes.html" target="_blank" rel="noopener noreferrer">Profesores</a>
-    <a href="html/contactos.html" target="_blank" rel="noopener noreferrer">Administrativos</a>
-    <a href="html/carrito.html" target="_blank" rel="noopener noreferrer">Computadores</a>
+    <a href="../ProgramAva/index.html" target="_blank" rel="noopener noreferrer">Inicio</a>
+    <a href="../ProgramAva/html/estudiantes.html" target="_blank" rel="noopener noreferrer">Estudiantes</a>
+    <a href="../ProgramAva/html/profesores.html" target="_blank" rel="noopener noreferrer">Profesores</a>
+    <a href="../ProgramAva/html/administrativos.html" target="_blank" rel="noopener noreferrer">Administrativos</a>
+    <a href="../ProgramAva/html/computadores.html" target="_blank" rel="noopener noreferrer">Computadores</a>
   </nav>
 </div>
 <!-- Reglas para utilizar la etiqueta section: sí el primer elemento hijo de esta etiqueta que utilizamos para 
@@ -316,6 +317,10 @@
             <div class="campo">
               <label for="">Email</label>
               <input class="input-text" type="email" name="" id="" placeholder="Correo electrónico" />
+            </div>
+            <div class="campo">
+              <label for="">documento</label>
+              <input class="input-text" type="Documento " name="" id="" placeholder="Numero de documento" />
             </div>
             <div class="campo">
               <label for="">Mensaje</label>
